@@ -1,0 +1,32 @@
+{
+  "text_chunks": [
+    {
+      "text": "Mutations in the MAPK/ERK Pathway and Their Impact on\nDownstream Enzyme Production: A Clinical Review\nAbstract\nThe MAPK/ERK signaling cascade is a critical pathway regulating cell proliferation, differentiation, and survival. Aberrant ac\nIntroduction\nReceptor tyrosine kinases (RTKs) such as EGFR and FGFR activate RAS GTPases upon ligand binding. RAS-GTP recruit\nDysregulation of this cascade \u00b7 whether through constitutive RAS activation, BRAF V600E mutation, or loss of negative reg",
+      "source_pdf": "sample_mapk_clinical_review.pdf",
+      "page_number": 1,
+      "chunk_index": 0
+    },
+    {
+      "text": "Results\nFigure 1 illustrates the canonical MAPK/ERK signaling pathway. Sorafenib, a multi-kinase inhibitor, targets RAF and blocks\nFigure 1: The MAPK/ERK signaling cascade. Growth factor binding activates RAS, which recruits RAF to initiate sequential phosphoryla",
+      "source_pdf": "sample_mapk_clinical_review.pdf",
+      "page_number": 2,
+      "chunk_index": 0
+    },
+    {
+      "text": "Discussion\nOur analysis demonstrates that mutations at the RAS and RAF tiers of the MAPK/ERK pathway have a cascading impact o\nImportantly, MEK inhibitors (trametinib, cobimetinib) and ERK inhibitors (ulixertinib) can partially restore normal enzyme lev\nConclusions\nGain-of-function mutations in BRAF and KRAS significantly amplify downstream kinase signaling, resulting in aberrant enzy\nReferences\n1. Davies H et al. (2002) Mutations of the BRAF gene in human cancer. Nature.\n2. Dhillon AS et al. (2007) MAP kinase signalling pathways in cancer. Oncogene.\n3. Samatar AA, Poulikakos PI (2014) Targeting RAS-ERK signalling in cancer. Nature Reviews Drug Discovery.",
+      "source_pdf": "sample_mapk_clinical_review.pdf",
+      "page_number": 3,
+      "chunk_index": 0
+    }
+  ],
+  "image_records": [
+    {
+      "image_path": "C:\\Users\\user\\.gemini\\antigravity-ide\\scratch\\multimodal-rag\\data\\extracted_images\\sample_mapk_clinical_review_p2_img0.png",
+      "source_pdf": "sample_mapk_clinical_review.pdf",
+      "page_number": 2,
+      "image_index": 0,
+      "caption": "Figure 1: The MAPK/ERK signaling cascade. Growth factor binding activates RAS, which recruits RAF to initiate sequential phosphoryla",
+      "surrounding_text": "Results Figure 1 illustrates the canonical MAPK/ERK signaling pathway. Sorafenib, a multi-kinase inhibitor, targets RAF and blocks Figure 1: The MAPK/ERK signaling cascade. Growth factor binding activates RAS, which recruits RAF to initiate sequential phosphoryla"
+    }
+  ]
+}

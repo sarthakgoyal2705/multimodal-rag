@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #5d7b6f;
+  --color-brand-primary: #a4c3a2;
+  --color-brand-secondary: #b0d4b8;
+  --color-brand-light: #eae7d6;
+  --color-brand-accent: #d7f9fa;
+}
+
+:root {
+  --background: #eae7d6;
+  --foreground: #5d7b6f;
+}
+
+/* Bulletproof utility classes to guarantee the palette applies */
+.bg-brand-dark { background-color: #5d7b6f !important; }
+.bg-brand-primary { background-color: #a4c3a2 !important; }
+.bg-brand-secondary { background-color: #b0d4b8 !important; }
+.bg-brand-light { background-color: #eae7d6 !important; }
+.bg-brand-accent { background-color: #d7f9fa !important; }
+
+.text-brand-dark { color: #5d7b6f !important; }
+.text-brand-primary { color: #a4c3a2 !important; }
+.text-brand-secondary { color: #b0d4b8 !important; }
+.text-brand-light { color: #eae7d6 !important; }
+.text-brand-accent { color: #d7f9fa !important; }
+
+.border-brand-dark { border-color: #5d7b6f !important; }
+.border-brand-primary { border-color: #a4c3a2 !important; }
+.border-brand-secondary { border-color: #b0d4b8 !important; }
+.border-brand-light { border-color: #eae7d6 !important; }
+.border-brand-accent { border-color: #d7f9fa !important; }
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* Custom Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-secondary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-primary);
+}
+
+/* Subtle Professional Animations */
+.slide-up-subtle {
+  animation: slideUpSubtle 0.5s ease-out forwards;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+@keyframes slideUpSubtle {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-staggered > * {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: slideUpSubtle 0.5s ease-out forwards;
+}
+
+.fade-in-staggered > *:nth-child(1) { animation-delay: 0.1s; }
+.fade-in-staggered > *:nth-child(2) { animation-delay: 0.2s; }
+.fade-in-staggered > *:nth-child(3) { animation-delay: 0.3s; }
+.fade-in-staggered > *:nth-child(4) { animation-delay: 0.4s; }
