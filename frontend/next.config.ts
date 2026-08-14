@@ -1,15 +1,17 @@
 import type { NextConfig } from "next";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
 const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:8000/api/:path*",
+        destination: `${API_URL}/api/:path*`,
       },
       {
         source: "/images/:path*",
-        destination: "http://localhost:8000/images/:path*",
+        destination: `${API_URL}/images/:path*`,
       },
     ];
   },

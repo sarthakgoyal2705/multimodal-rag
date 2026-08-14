@@ -1,5 +1,16 @@
+# Environment & secrets
 .env
+.env.local
+.env*.local
+
+# Python
 venv/
 __pycache__/
 *.pyc
+
+# Node
+node_modules/
+.next/
+
+# Data artifacts
 data/extracted_images/*.png
